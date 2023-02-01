@@ -1,0 +1,55 @@
+.banner {
+  min-height: 550px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.421);
+  position: relative;
+}
+.banner__contents {
+  padding: 36px;
+  max-width: 650px;
+  width: 80%;
+}
+.banner__contents h1 {
+  font-size: 57px;
+  text-transform: capitalize;
+  padding: 9px 0;
+}
+.banner__buttons button {
+  /* width: 68px; */
+  margin-right: 8px;
+  background: #0000005c;
+  border: none;
+  padding: 7px 24px;
+  font-size: 20px;
+  border-radius: 5px;
+  text-transform: capitalize;
+  color: #fff;
+  cursor: pointer;
+}
+
+.banner__buttons {
+  padding: 15px 0;
+}
+.banner__contents p {
+  font-size: 20px;
+}
+.footbar__fade {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  width: 100%;
+  background: linear-gradient(180deg, transparent, #111);
+}
+.row h3 {
+  color: #fff;
+  font-weight: 400;
+  text-transform: uppercase;
+  /* padding: 20px; */
+}
